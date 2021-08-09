@@ -11,7 +11,7 @@ apt install -y curl git vim zsh wget
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone git://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-cp  -f ./.zshrc ~/.zshrc
+cp ./.zshrc ~/.zshrc
 source ~/.zshrc
 chsh -s /bin/zsh
 exec $SHELL
